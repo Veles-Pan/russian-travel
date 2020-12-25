@@ -1,0 +1,162 @@
+@font-face {
+    src: url(./fonts/Inter-Regular.otf);
+    font-family: 'Inter';
+}
+@font-face {
+    src: url(./fonts/Inter-Italic.otf);
+    font-family: 'Inter';
+    font-style: italic;
+}
+@font-face {
+    src: url(./fonts/Inter-Bold.otf);
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+.root {
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Inter';
+    margin: 0;
+    border: 1px red solid;
+}
+
+.page {
+    color: #ffffff;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px blue solid;
+    margin: 28px 48px 56px;
+}
+
+.lang-links {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 18px;
+}
+
+.lang-link {
+    margin: 0;
+    font-size: 24px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.logo {
+    width: 176px;
+    height: 52px;
+    align-self: center;
+}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 48px 92px;
+}
+
+.title {
+    margin: 0;
+    font-size: 96px;
+    line-height: 1.04;
+    margin-bottom: 32px;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 64px;
+}
+
+.caption {
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.image_caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_place_lead {
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin: 28px 48px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 28px 24px 48px;
+    }
+    .lead {
+        margin: 0 0 88px;
+    }
+
+    .title {
+        margin: 0 24px 32px;
+    }
+
+    .subtitle {
+        margin: 0 64px 56px;
+    }
+
+    .caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        margin: 16px 16px 48px;
+    }
+    .lead {
+        margin: 0 0 64px;
+    }
+
+    .title {
+        margin: 0 16px 16px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .subtitle {
+        margin: 0 16px 40px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .caption {
+        margin-left: 16px;
+    }
+
+    .logo {
+        width: 143px;
+        height: 42px;
+    }
+
+    .lang-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}
