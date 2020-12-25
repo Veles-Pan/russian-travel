@@ -126,6 +126,31 @@
     }
 }
 
+@media screen and (max-width: 677px) {
+    .header {
+        margin: 16px 16px 48px;
+    }
+    .lead {
+        margin: 0 0 64px;
+    }
+
+    .title {
+        margin: 0 16px 16px;
+        font-size: 60px;
+        line-height: 1.1;
+    }
+
+    .subtitle {
+        margin: 0 16px 40px;
+        font-size: 20px;
+        line-height: 1.25;
+    }
+
+    .caption {
+        margin-left: 16px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .header {
         margin: 16px 16px 48px;
