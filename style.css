@@ -94,6 +94,7 @@
 
 .image_place_lead {
     width: 100%;
+    max-width: 1200px;
     background-size: cover;
     margin-bottom: 8px;
 }
