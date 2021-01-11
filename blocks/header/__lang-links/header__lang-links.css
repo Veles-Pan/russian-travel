@@ -2,4 +2,5 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 18px;
+    align-self: flex-end;
 }
