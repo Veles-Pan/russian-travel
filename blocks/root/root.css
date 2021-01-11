@@ -16,8 +16,8 @@
 .root {
     background-color: #2A2C2F;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin: 0;
     display: flex;
     justify-content: center;
