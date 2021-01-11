@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "links copyright";
+    justify-content: space-between;
+    margin: 0 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .footer {
+        grid-template-areas:
+        "links"
+        "copyright";
+        gap: 16px 0;
+    }
+}
+
