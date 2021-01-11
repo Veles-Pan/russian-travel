@@ -10,6 +10,8 @@
 
 @media screen and (max-width: 768px) {
     .lead__caption {
+        align-self: flex-start;
+        width: auto;
         margin-left: 24px;
     }
 }
