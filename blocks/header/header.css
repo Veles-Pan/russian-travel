@@ -24,9 +24,3 @@
         margin: 16px 16px 48px;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .header {
-        margin: 16px 16px 48px;
-    }
-}

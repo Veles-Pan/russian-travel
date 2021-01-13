@@ -1,12 +1,7 @@
 @font-face {
     src: url(../fonts/Inter-Regular.otf);
     font-family: 'Inter';
-}
-
-@font-face {
-    src: url(../fonts/Inter-Italic.otf);
-    font-family: 'Inter';
-    font-style: italic;
+    font-weight: normal;
 }
 
 @font-face {
