@@ -1,19 +1,4 @@
-.header__lang-link {
-    margin: 0;
-    font-size: 24px;
-    align-self: flex-end;
-    justify-self: flex-end;
-    transition: opacity .15s ease-in;
-}
-
-.header__lang-link:hover {
-    opacity: .8;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 425px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 1.11;
-    }
+.header__lang-link { 
+    color: #ffffff;
+    text-decoration: none;
 }
