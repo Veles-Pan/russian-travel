@@ -7,10 +7,24 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 915px) {
+    .place__title {
+        max-width: 40vw;
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 828px) {
     .place__title{
         font-size: 42px;
         line-height: 1.09;
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .place__title{
+        font-size: 37px;
     }
 }
 

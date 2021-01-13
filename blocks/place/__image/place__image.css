@@ -5,20 +5,31 @@
 
 @media screen and (max-width: 1024px) {
     .place__image {
-        width: 100%;
         max-width: 440px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 915px) {
     .place__image {
-        width: 340px;
+        max-width: 40vw;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .place__image {
+        max-width: 300px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place__image {
-        width: 100v;
+        width: 100vw;
         object-fit: cover;
     }
 }
