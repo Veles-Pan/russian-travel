@@ -7,7 +7,7 @@
     margin-right: 0;
 }
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 750px) {
     .footer__navigation-element {
         display: list-item;
         margin-bottom: 32px;

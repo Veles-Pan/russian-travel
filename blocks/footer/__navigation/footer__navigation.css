@@ -12,13 +12,13 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .footer__navigation {
         margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 750px) {
     .footer__navigation {
         flex-direction: column;
         margin-left: 16px;

@@ -1,19 +1,20 @@
 .footer {
     width: 100%;
+    max-width: 1184px;
     display: grid;
     grid-template-areas:
     "links copyright";
     justify-content: space-between;
-    margin: 0 0 24px;
+    margin: 0 auto 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .footer {
         margin: 0 0 24px;
     }
 }
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 750px) {
     .footer {
         grid-template-areas:
         "links"
