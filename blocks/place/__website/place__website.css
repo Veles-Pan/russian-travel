@@ -1,4 +1,4 @@
 .place__website {
     grid-area: website;
-    align-self: center;
+    align-self: end;
 }
